@@ -1,0 +1,41 @@
+{
+  "name": "cfn-deps",
+  "description": "create DOT file from AWS CloudFormation Template files",
+  "version": "1.0.0",
+  "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "bin": {
+    "cfn-deps": "bin/cfn-deps.js"
+  },
+  "bugs": {
+    "url": "https://github.com/KoharaKazuya/cfn-deps/issues"
+  },
+  "dependencies": {
+    "argv": "^0.0.2",
+    "glob": "^7.1.1",
+    "js-yaml": "^3.8.1",
+    "js-yaml-schema-cfn": "^1.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "jasmine": "^2.5.3"
+  },
+  "homepage": "https://github.com/KoharaKazuya/cfn-deps",
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "dot"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/KoharaKazuya/cfn-deps.git",
+    "type": "git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jasmine"
+  }
+}

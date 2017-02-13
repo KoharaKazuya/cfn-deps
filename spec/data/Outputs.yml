@@ -1,0 +1,5 @@
+Outputs:
+  Vpc:
+    Value: !Ref Vpc
+    Export:
+      Name: !Sub my-${Environment}-vpc
