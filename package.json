@@ -1,7 +1,7 @@
 {
   "name": "cfn-deps",
   "description": "create DOT file from AWS CloudFormation Template files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "KoharaKazuya <reflect.results@gmail.com>",
   "bin": {
     "cfn-deps": "bin/cfn-deps.js"
